@@ -5,6 +5,7 @@ PPG-based heart rate sensing with environmental humidity monitoring. Designed to
 address the gap in home care monitoring where physiological and environmental data 
 are rarely tracked together.
 
+![Project Build](Final_Circuit.png)
 ---
 
 ## Clinical Motivation
@@ -26,6 +27,7 @@ This system tracks both simultaneously.
 | DHT11 | Humidity and temperature sensing |
 | 16x2 LCD Display | Real-time data output |
 
+![Wiring Diagram](Wiring%20.png)
 ---
 
 ## What It Does
@@ -43,19 +45,17 @@ This system tracks both simultaneously.
 1. Wire components to Arduino per pin definitions in code
 2. Install libraries: LiquidCrystal, DHT, PulseSensorPlayground
 3. Upload vital_signs_monitor.ino via Arduino IDE
-4. Open Serial Monitor at 9600 baud to view live data stream
+4. Open Serial Monitor at 9600 baud to view the live data stream
 
 ---
 
 ## Sample Output
 
-LCD Display:
-BPM: 72  T: 23.5C
-H: 45%
+LCD Display: BPM, temperature, and humidity readings shown in real time
 
-Serial Monitor:
-BPM: 72  Temp: 23.50  Hum: 45.00
+Serial Monitor Output:
 
+![Serial Monitor Output](Data.png)
 ---
 
 ## Libraries Used
