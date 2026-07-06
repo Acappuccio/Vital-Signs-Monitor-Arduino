@@ -6,7 +6,16 @@ address the gap in home care monitoring where physiological and environmental da
 are rarely tracked together.
 
 ![Project Build](Final_Circuit.png)
+
 ---
+
+## My Contributions
+
+- Designed and programmed the Arduino software
+- Wired and integrated the hardware prototype
+- Implemented real-time sensor acquisition and LCD output
+- Developed sensor fault detection using NaN validation
+- Collaborated with teammates who completed the background research and report
 
 ## Clinical Motivation
 
@@ -28,6 +37,7 @@ This system tracks both simultaneously.
 | 16x2 LCD Display | Real-time data output |
 
 ![Wiring Diagram](Wiring%20.png)
+
 ---
 
 ## What It Does
@@ -56,6 +66,7 @@ LCD Display: BPM, temperature, and humidity readings shown in real time
 Serial Monitor Output:
 
 ![Serial Monitor Output](Data.png)
+
 ---
 
 ## Libraries Used
